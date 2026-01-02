@@ -1,4 +1,4 @@
-# 配置示例文件
+# 配置示例文件 
 # 请将此文件重命名为 wrangler.toml 并填入您的实际配置
 
 name = "custom-hosts"
