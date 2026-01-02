@@ -17,7 +17,7 @@ assets = { directory = "public" }
 # 管理后台默认用户名
 ADMIN_USERNAME = "admin"
 # 管理后台密码（推荐使用 wrangler secret put ADMIN_PASSWORD 设置）
-ADMIN_PASSWORD = "w.4882787"
+# ADMIN_PASSWORD#ADMIN_PASSWOR
 
 # KV 数据库绑定
 # 请替换为您自己的 KV 命名空间 ID
@@ -37,6 +37,22 @@ head_sampling_rate = 1
 # 定时任务配置 - 每60分钟执行一次域名优选
 [triggers]
 crons = ["0 */1 * * *"]
+
+# 自定义域名配置（可选）
+# 方法 1: 使用 routes 配置（传统方式）
+[[routes]]
+domain = "arn.555565.xyz/*"
+custom_domain = true
+
+# 方法 2: 使用 routes 配置根域名
+# [[routes]]
+# domain = "yourdomain.com/*"
+# custom_domain = true
+
+# 方法 3: 使用 routes 配置子域名
+# [[routes]]
+# domain = "*.yourdomain.com"
+# custom_domain = true
 
 # 多环境配置示例
 # [env.staging]
