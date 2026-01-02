@@ -40,9 +40,9 @@ crons = ["0 */1 * * *"]
 
 # 自定义域名配置（可选）
 # 方法 1: 使用 routes 配置（传统方式）
-[[routes]]
-domain = "arn.555565.xyz/*"
-custom_domain = true
+#[#[[routes
+#domain#domain = "arn.555565
+#custom_domain#custom
 
 # 方法 2: 使用 routes 配置根域名
 # [[routes]]
