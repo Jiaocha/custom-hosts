@@ -18,7 +18,7 @@ ENABLE_OPTIMIZATION = "false"
 ADMIN_USERNAME = "admin"
 # 管理后台密码（推荐使用 wrangler secret put ADMIN_PASSWORD 设置）
 # ADMIN_PASSWORD#ADMIN_PASSWOR
-# ADMIN_PASSWORD 
+# ADMIN_PASSWORD
 # KV 数据库绑定
 # 请替换为您自己的 KV 命名空间 ID
 # 运行以下命令创建 KV 命名空间：
