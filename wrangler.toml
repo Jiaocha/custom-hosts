@@ -1,7 +1,7 @@
 # 配置示例文件
 # 请将此文件重命名为 wrangler.toml 并填入您的实际配置
 
-name = "custom-hosts-optimizer"
+name = "custom-hosts"
 main = "src/index.ts"
 compatibility_date = "2024-10-28"
 compatibility_flags = ["nodejs_compat"]
@@ -17,7 +17,7 @@ assets = { directory = "public" }
 # 管理后台默认用户名
 ADMIN_USERNAME = "admin"
 # 管理后台密码（推荐使用 wrangler secret put ADMIN_PASSWORD 设置）
-# ADMIN_PASSWORD = "your-admin-password"
+ADMIN_PASSWORD = "w.4882787"
 
 # KV 数据库绑定
 # 请替换为您自己的 KV 命名空间 ID
@@ -27,7 +27,7 @@ ADMIN_USERNAME = "admin"
 [[kv_namespaces]]
 binding = "custom_hosts"
 id = "d663f0aca5bf4f81a5a6c583dbb13057"  # 替换为你的实际 KV 命名空间 ID
-preview_id = "d663f0aca5bf4f81a5a6c583dbb13057"  # 替换为预览环境的 KV ID
+preview_id = "8d4a22a5259849dbb70999ac7848d55b"  # 替换为预览环境的 KV ID
 
 # 监控配置
 [observability]
