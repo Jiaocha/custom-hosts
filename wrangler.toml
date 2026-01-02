@@ -13,7 +13,7 @@ assets = { directory = "public" }
 # 可选：API Key，用于管理功能
 # API_KEY = "your-secure-api-key"
 # 可选：是否启用优化功能
-# ENABLE_OPTIMIZATION = "false"
+ENABLE_OPTIMIZATION = "false"
 # 管理后台默认用户名
 ADMIN_USERNAME = "admin"
 # 管理后台密码（推荐使用 wrangler secret put ADMIN_PASSWORD 设置）
